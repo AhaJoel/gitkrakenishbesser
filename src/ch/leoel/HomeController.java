@@ -63,10 +63,10 @@ public class HomeController implements Initializable{
 		went_minute.setItems(listminute);
 	}
 	public void getTime(){
-		for(int i = 0;i<=24;i++) {
+		for(int i = 0;i<=23;i++) {
 			listhour.add(i);
 		}
-		for(int i = 0; i<=60; i++) {
+		for(int i = 0; i<=59; i++) {
 			listminute.add(i);
 		} 
 	}
