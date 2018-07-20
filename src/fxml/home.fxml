@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="516.0" prefWidth="562.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.leoel.HomeController">
+   <children>
+      <DatePicker fx:id="datepicker" layoutX="194.0" layoutY="29.0" />
+      <ComboBox fx:id="subject" layoutX="206.0" layoutY="90.0" prefWidth="150.0" />
+      <ComboBox fx:id="came_hour" layoutX="102.0" layoutY="198.0" prefHeight="25.0" prefWidth="61.0" />
+      <ComboBox fx:id="came_minute" layoutX="184.0" layoutY="198.0" prefHeight="25.0" prefWidth="61.0" />
+      <ComboBox fx:id="midday_hour" layoutX="356.0" layoutY="198.0" prefHeight="25.0" prefWidth="61.0" />
+      <ComboBox fx:id="midday_minute" layoutX="435.0" layoutY="198.0" prefHeight="25.0" prefWidth="61.0" />
+      <ComboBox fx:id="camemidday_hour" layoutX="102.0" layoutY="292.0" prefHeight="25.0" prefWidth="61.0" />
+      <ComboBox fx:id="camemidday_minute" layoutX="194.0" layoutY="292.0" prefHeight="25.0" prefWidth="61.0" />
+      <ComboBox fx:id="went_hour" layoutX="356.0" layoutY="292.0" prefHeight="25.0" prefWidth="61.0" />
+      <ComboBox fx:id="went_minute" layoutX="435.0" layoutY="292.0" prefHeight="25.0" prefWidth="61.0" />
+      <Button fx:id="save" layoutX="255.0" layoutY="430.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
